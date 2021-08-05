@@ -24,4 +24,8 @@ touch ~/.commonrc
 # Install Zsh plugin manager
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 
+# install fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
 cat .zshrc-post >> ~/.zshrc
